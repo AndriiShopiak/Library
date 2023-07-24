@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background: #0C0C0E;
+  color: #FFFFFF;
+}
+header h1 {
+  margin: 0;
+}
+
+.header__con, .nav {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
