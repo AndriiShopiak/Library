@@ -141,6 +141,19 @@ header {
 .about__slider {
 }
 .about__progress {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 .about__progress__circle {
+    background: #000;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    &:first-child {
+        background: #BB945F;
+    }
 }
