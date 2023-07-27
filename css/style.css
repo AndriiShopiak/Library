@@ -150,4 +150,67 @@ header {
 }
 .about__progress__circle:first-child {
   background: #BB945F;
+}
+
+.favorites {
+  padding-top: 20px;
+}
+
+.favorites__season__text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.favorites__season__select_block {
+  display: flex;
+  gap: 10px;
+}
+.favorites__season__select_block input {
+  width: 17px;
+  height: 17px;
+}
+.favorites__season__select_block input:checked {
+  border: 2px solid #000;
+}
+
+.select_block__circle {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.select_block__circle .circle {
+  border-radius: inherit;
+  background: #000;
+  width: 10px;
+  height: 10px;
+}
+
+.select_block__custom {
+  width: 17px;
+  height: 17px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select_block__custom .checkmark {
+  width: calc(100% - 5px);
+  height: calc(100% - 5px);
+  background: #000;
+  display: none;
+  border-radius: 50%;
+}
+.select_block__custom input:checked + .checkmark {
+  display: inline-block;
+}
+.select_block__custom input {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

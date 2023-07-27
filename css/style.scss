@@ -158,3 +158,75 @@ header {
         background: #BB945F;
     }
 }
+
+// Favorites 
+
+.favorites {
+    padding-top: 20px;
+}
+.wrapper {
+}
+.favorites__title {
+}
+.favorites__season {
+}
+.favorites__season__text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.favorites__season__select_block {
+    display: flex;
+    gap: 10px;
+    input {
+        width: 17px;
+        height: 17px;
+    }
+    input:checked {
+        border: 2px solid #000;
+    }
+}
+.select_block {
+}
+.select_block__circle {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .circle {
+        border-radius: inherit;
+        background: #000;
+        width: 10px;
+        height: 10px;
+    }
+}
+.select_block__label {
+   
+}
+.select_block__custom {
+    width: 17px;
+    height: 17px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .checkmark {
+        width: calc(100% - 5px);
+        height: calc(100% - 5px);
+        background: #000;
+        display: none;
+        border-radius: 50%;
+    }
+    input:checked + .checkmark {
+        display: inline-block;
+    }
+    input {
+        display: none;
+    }
+}
