@@ -370,4 +370,51 @@ header {
 #cards__card .cards__card__text {
   display: block;
   width: 196px;
+}
+
+.contacts {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.contact__flex {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__title, .info__head {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 200%;
+}
+
+.info__text {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  transition: color 0.6s ease;
+}
+.info__text:hover {
+  color: #BB945F;
+}
+
+.info__text__head {
+  font-weight: 700;
+}
+
+.contact__flex__map {
+  width: 696px;
+  height: 414px;
+}
+.contact__flex__map iframe {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
