@@ -568,6 +568,10 @@ header {
   line-height: 133.333%;
   margin-bottom: 10px;
 }
+.footer__fex__block__adress a {
+  text-decoration: none;
+  color: #FFF;
+}
 
 .footer__fex__block__icons {
   display: flex;
