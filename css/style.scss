@@ -446,6 +446,10 @@ text-transform: capitalize;
 }
 .info__text__head {
     font-weight: 700;
+    a {
+        text-decoration: none;
+        color: #000;
+    }
 }
 .contact__flex__map {
     width: 696px;

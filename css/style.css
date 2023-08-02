@@ -424,6 +424,10 @@ header {
 .info__text__head {
   font-weight: 700;
 }
+.info__text__head a {
+  text-decoration: none;
+  color: #000;
+}
 
 .contact__flex__map {
   width: 696px;
