@@ -334,7 +334,7 @@ header {
 }
 
 .coffee_shop {
-  padding-top: 40px;
+  padding-top: 62px;
 }
 
 .coffee_shop__text {
@@ -345,8 +345,8 @@ header {
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 2px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 19px;
+  margin-bottom: 0;
 }
 
 .cards {
@@ -364,6 +364,7 @@ header {
   line-height: 40px; /* 100% */
   letter-spacing: 2px;
   text-transform: capitalize;
+  text-align: right;
 }
 
 .cards__card__text {
