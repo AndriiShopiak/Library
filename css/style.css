@@ -145,6 +145,11 @@ header {
   line-height: 200%;
 }
 
+.about__slider {
+  display: flex;
+  justify-content: space-between;
+}
+
 .about__progress {
   margin-top: 40px;
   display: flex;
@@ -164,24 +169,21 @@ header {
   background: #BB945F;
 }
 
-.favorites {
-  padding-top: 20px;
-}
-
 .favorites__season__text {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 39px;
+  margin-bottom: 43px;
 }
 
 .favorites__season__select_block {
   display: flex;
-  gap: 30px;
 }
 .favorites__season__select_block input {
-  width: 17px;
-  height: 17px;
+  width: 15px;
+  height: 15px;
 }
 .favorites__season__select_block input:checked {
   border: 2px solid #000;
@@ -316,6 +318,11 @@ header {
 }
 #last__block:hover {
   background: none;
+}
+
+#label_season {
+  margin-right: 100px;
+  margin-left: 22px;
 }
 
 .coffee_shop {
