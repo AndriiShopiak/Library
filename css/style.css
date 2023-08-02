@@ -22,6 +22,7 @@ button:hover {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 h1, h2 {
@@ -74,7 +75,7 @@ header {
 .header__con, .nav, ul {
   display: flex;
   align-items: center;
-  gap: 454px;
+  justify-content: space-between;
 }
 
 .logo__title {
