@@ -547,3 +547,58 @@ text-transform: capitalize;
     padding: 10px 15px;
     background: #FFF;
 }
+
+// Footer
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 44px;
+    background: #0C0C0E;
+    color: #FFF;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__fex__block {
+}
+.footer__fex__block__adress {
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.333% ;
+    margin-bottom: 10px;
+}
+.footer__fex__block__icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 38px;
+    padding: 0;
+}
+.footer__fex__block__text {
+}
+.footer__line {
+    background: #FFF;
+    height: 1px;
+    margin-bottom: 44px;
+}
+.footer__flex_describe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+.footer__flex_describe__year {
+}
+.footer__flex_describe__school_name {
+}
+.footer__flex_describe__uasername {
+}
