@@ -151,6 +151,8 @@ header {
     line-height: 200%;
 }
 .about__slider {
+    display: flex;
+    justify-content: space-between;
 }
 .about__progress {
     margin-top: 40px;
