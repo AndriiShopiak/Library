@@ -478,7 +478,7 @@ text-transform: capitalize;
 
 .digital {
     padding-top: 20px;
-    padding-bottom: 41px;
+    padding-bottom: 37px;
 }
 .digital__blocks {
     display: flex;
@@ -494,10 +494,11 @@ text-transform: capitalize;
     line-height: normal;
     letter-spacing: 0.6px;
     text-align: center;
+    margin-top: 20px;
 }
 .digital__blocks__block__form {
     border: 3px solid #BB945F;
-    width: 600px;
+    width: 555px;
     padding: 20px 20px 0 20px;
     -webkit-box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.43);
     -moz-box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.43);
@@ -507,7 +508,7 @@ text-transform: capitalize;
     background: #BB945F;
     padding: 20px 20px 25px 20px;
     input {
-        width: 520px;
+        width: 96%;
         height: 66px;
         border-radius: 10px;
         border: none;
@@ -527,13 +528,14 @@ text-transform: capitalize;
     letter-spacing: 0.6px;
     font-family: Forum;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 17px;
 }
 .digital__blocks__con_btn {
     text-align: center;
 }
 .form__card__btn {
-    margin-top: 20px;
+    margin-top: 16px;
     margin-bottom: 30px;
     padding: 10px 40px 10px 40px;
     font-size: 20px;
@@ -546,6 +548,7 @@ text-transform: capitalize;
 }
 #digital__blocks__block {
     width: 456px;
+    text-align: right;
 }
 .digital__blocks__block__header {
     font-family: Forum;
@@ -554,6 +557,7 @@ text-transform: capitalize;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.6px;
+    margin-top: 22px;
 }
 .digital__blocks__block__text {
     font-family: Inter;
@@ -563,6 +567,7 @@ text-transform: capitalize;
     line-height: 200%;
     letter-spacing: 0.4px;
     text-align: right;
+    margin-bottom: 37px;
 }
 .digital__blocks__block__btn {
     border-radius: 2px;
@@ -576,6 +581,7 @@ text-transform: capitalize;
     letter-spacing: 1px;
     padding: 10px 15px;
     background: #FFF;
+    margin-right: 10px;
 }
 
 // Footer

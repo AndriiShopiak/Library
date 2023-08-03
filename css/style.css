@@ -456,7 +456,7 @@ header {
 
 .digital {
   padding-top: 20px;
-  padding-bottom: 41px;
+  padding-bottom: 37px;
 }
 
 .digital__blocks {
@@ -472,11 +472,12 @@ header {
   line-height: normal;
   letter-spacing: 0.6px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .digital__blocks__block__form {
   border: 3px solid #BB945F;
-  width: 600px;
+  width: 555px;
   padding: 20px 20px 0 20px;
   box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.43);
 }
@@ -486,7 +487,7 @@ header {
   padding: 20px 20px 25px 20px;
 }
 .form__card__back input {
-  width: 520px;
+  width: 96%;
   height: 66px;
   border-radius: 10px;
   border: none;
@@ -506,7 +507,8 @@ header {
   letter-spacing: 0.6px;
   font-family: Forum;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 17px;
 }
 
 .digital__blocks__con_btn {
@@ -514,7 +516,7 @@ header {
 }
 
 .form__card__btn {
-  margin-top: 20px;
+  margin-top: 16px;
   margin-bottom: 30px;
   padding: 10px 40px 10px 40px;
   font-size: 20px;
@@ -528,6 +530,7 @@ header {
 
 #digital__blocks__block {
   width: 456px;
+  text-align: right;
 }
 
 .digital__blocks__block__header {
@@ -537,6 +540,7 @@ header {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.6px;
+  margin-top: 22px;
 }
 
 .digital__blocks__block__text {
@@ -547,6 +551,7 @@ header {
   line-height: 200%;
   letter-spacing: 0.4px;
   text-align: right;
+  margin-bottom: 37px;
 }
 
 .digital__blocks__block__btn {
@@ -561,6 +566,7 @@ header {
   letter-spacing: 1px;
   padding: 10px 15px;
   background: #FFF;
+  margin-right: 10px;
 }
 
 .footer {
