@@ -23,6 +23,7 @@ button:hover {
   max-width: 1397px;
   margin: 0 auto;
   padding: 0 20px;
+  overflow: hidden;
 }
 
 h1, h2 {
@@ -106,6 +107,35 @@ header {
   cursor: pointer;
 }
 
+.nav__burger {
+  display: none;
+  cursor: pointer;
+  width: 45px;
+  margin-top: 9px;
+}
+.nav__burger .nav__burger__item {
+  background: #FFF;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1079px) {
+  .nav__list {
+    gap: 25px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px) {
+  header {
+    padding: 20px 0;
+  }
+  .nav__list {
+    display: none;
+  }
+  .nav__burger {
+    display: block;
+  }
+}
 .welcome {
   padding-top: 220px;
   background: url(../img/header/01.png);
