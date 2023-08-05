@@ -118,6 +118,32 @@ header {
         margin-bottom: 10px;
     }
 }
+.header__menu {
+    position: absolute;
+    background: #000;
+    right: 0;
+    height: 500px;
+    overflow: hidden;
+    width: 0;
+    transition: all .8s ease;
+    li {
+        &::after {
+            display: none;
+        }
+    }
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 295px;
+        margin: 0;
+        gap: 35px;
+        margin-top: 33px;
+    }
+}
+.active_mobile {
+    width: 334px;
+}
 @media (max-width: 1079px) {
     .nav__list {
         gap: 25px;
@@ -131,6 +157,9 @@ header {
     }
     .nav__list {
         display: none;
+        .nav__list__item {
+            margin-right: 40px;
+        }
     }
     .nav__burger {
         display: block;
