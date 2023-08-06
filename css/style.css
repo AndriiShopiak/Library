@@ -168,8 +168,14 @@ header {
   }
 }
 @media (max-width: 1024px) {
+  .wrapper {
+    padding: 0 13px;
+  }
   header {
     padding: 20px 0;
+  }
+  .nav {
+    gap: 33px;
   }
   .nav__list {
     display: none;
