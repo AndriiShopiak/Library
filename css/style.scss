@@ -141,8 +141,20 @@ header {
         margin-top: 33px;
     }
 }
+.nav__burger__item {
+    transition: all .6s ease;
+}
 .active_mobile {
     width: 334px;
+}
+.rotateFirst {
+    transform: translateY(12px) rotate(45deg);
+}
+.rotateLast {
+    transform: translateY(-12px) rotate(-45deg);
+}
+.averrage {
+    opacity: 0;
 }
 @media (max-width: 1079px) {
     .nav__list {
