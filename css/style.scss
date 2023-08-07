@@ -164,9 +164,6 @@ header {
 
 }
 @media (max-width: 1024px) {
-    .wrapper {
-        padding: 0 13px;
-    }
     header {
         padding: 20px 0;
     }
@@ -230,6 +227,8 @@ header {
 .about__slider {
     display: flex;
     justify-content: space-between;
+    gap: 25px;
+    overflow: hidden;
 }
 .about__progress {
     margin-top: 40px;
@@ -237,6 +236,9 @@ header {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+#hidden__about, #hidden__last {
+    display: none;
 }
 .about__progress__circle {
     background: #000;
@@ -247,6 +249,42 @@ header {
     &:first-child {
         background: #BB945F;
     }
+}
+.about__slider__flexor {
+    #Arrow_icon {
+        display: none;
+    }
+}
+@media (max-width: 1441px) {
+    .about__slider {
+        overflow: hidden;
+        max-width: 920px;
+        margin: 0 auto;
+    }
+    #hidden__about {
+        display: block;
+    }
+}
+@media (max-width: 945px) {
+    .about__slider {
+        max-width: 450px;
+        margin-bottom: -13px;
+    }
+    #hidden__last {
+        display: block;
+    }
+    .about__slider__flexor {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 615px;
+        margin: 0 auto;
+        #Arrow_icon {
+            display: inline;
+            margin-top: 55px;
+        }
+    }
+
 }
 
 // Favorites 
@@ -265,10 +303,12 @@ header {
     font-weight: 700;
     line-height: normal;
     margin-top: 39px;
-    margin-bottom: 43px;
+    margin-bottom: 41px;
 }
 .favorites__season__select_block {
     display: flex;
+    justify-content: space-between;
+    max-width: 700px;
     margin-bottom: 40px;
     input {
         width: 15px;
@@ -397,6 +437,7 @@ header {
 .favorites_flex_wrapper {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 259px;
 }
 #favorites_flex_wrapper {
@@ -416,8 +457,8 @@ header {
     }
 }
 .label_season {
-    margin-right: 100px;
-    margin-left: 22px;
+    margin-left: -70px;
+    font-size: 20px;
 }
 // coffee shop
 
@@ -493,6 +534,18 @@ header {
     .cards__card__text {
         display: block;
         width: 196px;
+    }
+}
+@media (max-width: 1414px) {
+    .favorites_flex_wrapper {
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+    }
+}
+@media (max-width: 770px) {
+    .favorites_flex_wrapper {
+        margin-right: 40px;
     }
 }
 // Contacts
